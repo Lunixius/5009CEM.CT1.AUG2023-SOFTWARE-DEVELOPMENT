@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">assignment</string>
+    <string name="homepage">Homepage</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="price" />
+    <string name="imgGallery">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="update_image">Update image</string>
+    <string name="update_entity">Update entity</string>
+    <string name="update">Update</string>
+    <string name="select_entity">Select entity</string>
+    <string name="delete">Delete</string>
+    <string name="delete_entity">Delete entity</string>
+</resources>

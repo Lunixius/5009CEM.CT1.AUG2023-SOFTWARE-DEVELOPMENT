@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCBC0"
+    android:layout_gravity="center_horizontal">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="545dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="28dp"
+        android:background="#FEB5C0" />
+
+    <TextView
+        android:id="@+id/Homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/homepage"
+        android:textSize="50sp" />
+
+
+    <Button
+        android:id="@+id/addentity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginBottom="490dp"
+        android:background="#DCD5D8"
+        android:text="Add entity"
+        android:textColor="#F000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,RelativeOverlap,TextSizeCheck,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/updateentity"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="328dp"
+        android:background="#DCD5D8"
+        android:text="Update entity"
+        android:textColor="#F000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/deleteentity"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="538dp"
+        android:background="#DCD5D8"
+        android:text="Delete entity"
+        android:textColor="#F000"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+</RelativeLayout>

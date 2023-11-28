@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="410dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCBC0"
+    android:layout_gravity="center_horizontal">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="317dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="28dp"
+        android:background="#FEB5C0" />
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/delete"
+        android:textSize="50sp"
+        tools:ignore="RelativeOverlap" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:background="#DCD5D8"
+        android:text="Back"
+        android:textColor="#607D8B"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText,RelativeOverlap" />
+
+    <Button
+        android:id="@+id/select_entity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="478dp"
+        android:background="#DCD5D8"
+        android:text="Select entity"
+        android:textColor="#607D8B"
+        android:textSize="20sp"
+        app:backgroundTint="@null"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgGallery"
+        android:layout_width="159dp"
+        android:layout_height="132dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="435dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="241dp"
+        android:background="#FFFF00"
+        android:text="name"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="103dp"
+        android:background="#FFFF00"
+        android:text="price"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText,RelativeOverlap" />
+
+    <Button
+        android:id="@+id/delete_entity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="183dp"
+        android:background="#FF0000"
+        android:text="@string/delete_entity"
+        android:textColor="#263238"
+        android:textSize="30sp"
+        app:backgroundTint="@null"
+        tools:ignore="DuplicateIds,RelativeOverlap" />
+
+</RelativeLayout>
